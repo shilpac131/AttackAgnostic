@@ -20,11 +20,9 @@ The models are tested on the LA and DF partion of ASVspoof 2021 and also on data
 ### Training
 
 ## 1. To train the code first you have to trained the Attack-Invariant Encoder-Decoder (AIED) AIED submodule:
-
-``bash
+```bash
 python main_w2v2_AASIST_AIED_L5_noMean_hugface.py
 ```
-
 
 ## 2. After this, the entire framework can be trained using:
 
